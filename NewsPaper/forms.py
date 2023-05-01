@@ -5,4 +5,4 @@ from NewsPaper.news.models import Post
 class PostForm(ModelForm):
     class Meta:
         model = Post
-        fields = ['author', 'category','title','text']
+        fields = ['author', 'category', 'title', 'text']
