@@ -8,5 +8,4 @@ class NewsFilter(FilterSet):
             'author': ['exact'],
             'title': ['icontains'],
             'dateCreation': ['gt'],
-             
         }
